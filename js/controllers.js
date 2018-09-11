@@ -106,7 +106,7 @@
         $scope.showFinale = function() {
             var finalePopup = $ionicPopup.confirm({
                 title: '<h2>BRAVO!</h2><h4>Pogodio/la si sve parove</h4>',
-                cancelText: 'Start Again',
+                cancelText: 'glavni izbornik',
                 cancelType: 'button-outline',
                 okText: 'Započni novu igru',
                 okType: 'button-positive',
@@ -127,9 +127,9 @@
         $scope.showIconError = function() {
             var errorPopup = $ionicPopup.confirm({
                 title: '<h2>ERROR:</h2><h4>there was a problem loading the icons.</h4>',
-                cancelText: 'Main Menu',
+                cancelText: 'glavni izbornik',
                 cancelType: 'button-outline',
-                okText: 'Try Again?',
+                okText: 'Pokušajte ponovo?',
                 okType: 'button-positive',
                 scope: $scope,
             });

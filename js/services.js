@@ -5,7 +5,8 @@
 
     .constant('DEFAULT_SETTINGS', {
         'TEMP_THEME': 'positive',
-        'LOCAL_STORAGE': 'settings'
+        'LOCAL_STORAGE': 'settings',
+        'theme': 'positive'
     })
 
     //  Data for Settings modal
